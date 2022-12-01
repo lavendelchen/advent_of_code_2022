@@ -37,3 +37,5 @@ int main(void)
 	max = max_element(elves.begin(), elves.end());
 	std::cout << "THIRD MAX ELEMENT: " << *max << '\n';
 }
+
+//and then use a calculator to add the three top elements together lol
