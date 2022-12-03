@@ -8,7 +8,7 @@ using namespace std;
 
 int main(void)
 {
-	fstream	stream("input");
+	fstream	stream("input.txt");
 	string	buffer;
 
 	int	curr_elf_calories = 0;

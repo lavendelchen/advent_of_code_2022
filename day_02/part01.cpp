@@ -57,7 +57,7 @@ int	which_score(rps_map_t::iterator ours, rps_map_t::iterator opps)
 
 int main()
 {
-	std::fstream in_stream("input");
+	std::fstream in_stream("input.txt");
 
 	auto rps = get_rps();
 	std::multimap<char, char>	rounds;
