@@ -1,9 +1,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <map>
 #include <fstream>
-#include <cctype>
 
 struct Elf
 {

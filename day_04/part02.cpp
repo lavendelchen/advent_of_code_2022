@@ -1,9 +1,7 @@
 #include <string>
 #include <iostream>
 #include <vector>
-#include <map>
 #include <fstream>
-#include <cctype>
 
 struct Elf
 {
@@ -30,10 +28,10 @@ struct ElfPair
 			return true;
 		return false;
 	}
-	bool	sectionsOverlap()
+	bool	sectionsOverlap() const
 	{
-		Elf*	laterSectionElf;
-		Elf*	earlierSectionElf;
+		const Elf*	laterSectionElf;
+		const Elf*	earlierSectionElf;
 
 		if (first_elf.begin_section >= second_elf.begin_section)
 		{
